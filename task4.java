@@ -13,8 +13,6 @@ public class task4 {
                 { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
                 { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
         System.out.println("Validete:" + isValidSudoku(board));
-        // System.out.println(board.length);  // y
-        // System.out.println(board[0].length);  // x
     }
 
     private static boolean isValidSudoku(char[][] board) {
